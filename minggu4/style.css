@@ -1,0 +1,43 @@
+.a {
+    font-family: Arial, Helvetica, sans-serif;
+    display: inline-block;
+    text-decoration: none;
+    background-color: grey;
+    color: whitesmoke;
+    padding: 12px 45px;
+    margin: 20px;
+    border-radius: 5px;
+}
+
+.a:hover {
+    background-color: rgb(75, 74, 74);
+}
+
+.b {
+    font-family: Arial, Helvetica, sans-serif;
+    display: inline-block;
+    text-decoration: none;
+    border: 3px solid #263238;
+    color: #263238;
+    font-weight: bold;
+    padding: 12px 45px;
+    margin: 20px;
+    border-radius: 50px;
+}
+
+.b:hover {
+    background-color: #263238;
+    color: cyan;
+}
+
+.c {
+    text-decoration: none;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+.c:hover {
+    color: aquamarine;
+    text-decoration: none;
+}

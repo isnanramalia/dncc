@@ -1,0 +1,42 @@
+.container {
+    /*   ROW
+  
+    display: flex;
+    flex-direction: row;
+    width: 600px;
+    height: 200px;
+    border: 2px solid black;
+    margin: 30px auto;
+    padding: 5px;
+    box-sizing: border-box; */
+
+
+    /* CENTER */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 500px;
+    margin: 30px auto;
+    padding: 5px;
+    border: 2px solid black;
+}
+
+.container div {
+    /* ROW
+
+    width: 120px;
+    height: 120px;
+    color: white;
+    font-size: 20px;
+    background-color: grey;
+    margin: 2px; */
+
+
+    /* CENTER */
+    width: 100px;
+    height: 100px;
+    color: white;
+    font-size: 20px;
+    background-color: grey;
+    margin: 5px;
+}

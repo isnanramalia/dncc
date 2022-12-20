@@ -1,0 +1,26 @@
+table,
+th,
+td {
+    border: 1px solid black;
+}
+
+table {
+    border-collapse: collapse;
+    width: 80%;
+}
+
+th {
+    height: 50px;
+}
+
+td {
+    text-align: center;
+    vertical-align: bottom;
+}
+
+
+/* even:genap, odd:ganjil */
+tr:nth-child(even) {
+    background-color: grey;
+    color: aliceblue;
+}

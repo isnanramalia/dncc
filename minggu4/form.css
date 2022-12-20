@@ -1,0 +1,32 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.container {
+    width: fit-content;
+    height: fit-content;
+    border: 2px solid black;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+input,
+select,
+button {
+    width: 500px;
+    margin: 20px 0;
+    display: block;
+    border: 1px solid whitesmoke;
+    border-radius: 5px;
+    padding: 10px 20px;
+}
+
+button {
+    color: white;
+    background-color: grey;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: aqua;
+}
